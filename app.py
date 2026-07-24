@@ -70,4 +70,6 @@ if st.button("Get Weather"):
                 )
 
     else:
-        st.error("City not found. Please check the name.")
+    st.error(
+        f"Error: {weather_data.get('message', 'Unknown error')}"
+    )
