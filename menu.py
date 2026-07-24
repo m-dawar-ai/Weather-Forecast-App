@@ -1,0 +1,10 @@
+def show_menu():
+    print("\n" + "=" * 40)
+    print("      🌤 WEATHER FORECAST APP")
+    print("=" * 40)
+    print("1. Current Weather")
+    print("2. 5-Day Forecast")
+    print("3. View Search History")
+    print("4. Clear Search History")
+    print("5. Exit")
+    print("=" * 40)
