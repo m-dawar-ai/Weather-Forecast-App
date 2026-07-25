@@ -57,7 +57,7 @@ if st.button("Get Weather"):
             )
 
             # Forecast
-            st.subheader("📅 Forecast")
+            st.subheader("🗓️ Forecast")
 
             forecast_data, forecast_status = get_forecast(city)
 
