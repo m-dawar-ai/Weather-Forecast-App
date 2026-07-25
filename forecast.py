@@ -17,7 +17,7 @@ def show_forecast(city):
         # Show one forecast every 24 hours (8 x 3-hour intervals)
         if count % 8 == 0:
 
-            print("📅", item["dt_txt"])
+            print("🗓️", item["dt_txt"])
             print("🌡 Temp:", item["main"]["temp"], "°C")
             print("☁ Weather:", item["weather"][0]["description"].title())
             print("💧 Humidity:", item["main"]["humidity"], "%")
